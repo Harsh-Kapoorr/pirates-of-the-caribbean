@@ -1,0 +1,446 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+@font-face {
+	font-family: 'Pieces of Eight';
+	src: url("Pieces\ of\ Eight.ttf");
+}
+
+.wrapper {
+	position: static;
+	height: 90%;
+	width: 90%;
+	overflow: hidden;
+}
+
+.Pirates {
+	position: fixed;
+	top: 0;
+	left: 2px;
+	z-index: 100px;
+	margin: 4px 3vw;
+}
+
+.content {
+	position: static;
+	font-family: Pieces of Eight;
+	font-style: bold;
+	color: #ffffff;
+	text-shadow: rgb(189, 186, 186);
+	top: 0;
+	margin: 160px 30vw;
+	max-width: 80vw;
+	background-color: transparent;
+	text-align: center;
+	font-size: 2.4vw
+}
+
+.para {
+	position: absolute;
+	top: 320px;
+	right: 770px;
+	text-align: center;
+	font-size: 2.1vw;
+	text-shadow: 4px 1px 4px rgb(0, 0, 0);
+}
+
+.white-bg-1 {
+	position: absolute;
+	top: 470px;
+	background-color: rgb(255, 255, 255);
+	min-height: 100px;
+	width: 100vw;
+	height: 90vh;
+	-webkit-transform: skewY(4deg);
+	        transform: skewY(4deg);
+	box-shadow: -2px -5px 5px 0px rgba(0, 0, 0, 0.993)
+}
+
+
+.white-bg-2 {
+	position: absolute;
+	top: 1300px;
+	background-color: rgb(0, 0, 0);
+	min-height: 100px;
+	width: 100vw;
+	height: 90vh;
+	-webkit-transform: skewY(4deg);
+	        transform: skewY(4deg);
+	box-shadow: -2px -5px 5px 0px rgba(255, 255, 255, 0.993)
+}
+
+.black-bg-1 {
+	position: absolute;
+	top: 1050px;
+	background-color: rgb(0, 0, 0);
+	min-height: 100px;
+	margin: 1300px 0px;
+	width: 100vw;
+	height: 10vh;
+	-webkit-transform: skewY(4deg);
+	        transform: skewY(4deg);
+	z-index: -1;
+}
+
+.black-bg-2 {
+	position: absolute;
+	top: 1050px;
+	background-color: rgb(0, 0, 0);
+	min-height: 100px;
+	margin: 1300px 0px;
+	width: 100vw;
+	height: 10vh;
+	-webkit-transform: skewY(-4deg);
+	        transform: skewY(-4deg);
+	z-index: -1;
+}
+
+.black-bg-3 {
+	position: absolute;
+	top: 1050px;
+	background-color: rgb(0, 0, 0);
+	min-height: 100px;
+	margin: 1300px 0px;
+	width: 100vw;
+	height: 10vh;
+	z-index: -1;
+}
+
+h1 {
+	font-family: "Pieces of Eight";
+	text-align: center;
+	text-shadow: 4px 1px 4px rgb(0, 0, 0);
+}
+
+img:hover {
+	animation: shake 5s;
+	animation-iteration-count: 6;
+}
+
+.text {
+	position: absolute;
+	font-family: "Pieces of Eight";
+	font-style: bold;
+	color: #1f1e1e;
+	text-shadow: rgb(0, 0, 0);
+	top: 0;
+	margin: 530px 2vw;
+	max-width: 90vw;
+	font-size: 5vw
+}
+
+.video {
+	position: absolute;
+	margin: 900px 110px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #ffffff;
+	border-radius: 5px;
+	padding: 2.5px;
+	box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.993)
+}
+
+.new {
+	font-family: "Pieces of Eight";
+	position: absolute;
+	color: #ffffff;
+	top: 1425px;
+	left: 1000px;
+	font-size: 4vw;
+}
+
+.background {
+	
+	background: url(pirates\ of\ the\ caribbean.jpg);
+	background-size: cover;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: -1;
+	overflow: hidden;
+}
+
+.division {
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	min-height: 100px;
+	margin: 1700px 0px;
+	width: 100vw;
+	height: 90vh;
+	-webkit-transform: skewY(4deg);
+	        transform: skewY(4deg);
+	z-index: -1;
+
+}
+
+.copyright {
+	position: absolute;
+	top: 2327px;
+	left: 30px;
+	bottom: 0px;
+	font-family: "Pieces of Eight";
+	text-align: center;
+	color: #ffffff;
+	font-size: 41px;
+	height: 90px;
+	text-shadow: 3px 0.5px 4px rgb(202, 200, 200);
+}
+
+.copyright-name {
+	position: absolute;
+	top: 2322px;
+	left: 1400px;
+	bottom: 0px;
+	font-family: "Pieces of Eight";
+	text-align: center;
+	color: #ffffff;
+	font-size: 50px;
+	height: 90px;
+	text-shadow: 3px 0.5px 4px rgb(202, 200, 200);
+}
+
+/*#IMG_1*/
+
+#IMG_1 {
+	cursor: pointer;
+	display: block;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	position: absolute;
+	margin: 600px 2vw;
+  	left: 0px;
+	top: 70px;
+	border-radius: 2px 2px 2px 2px;
+	transition: opacity 0.2s ease 0s;
+}
+
+/*#IMG_2*/
+
+#IMG_2 {
+	cursor: pointer;
+	display: block;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	margin: 600px 20vw;
+	left: 20px;
+	position: absolute;
+	top: 70px;
+	transition: opacity 0.2s ease 0s;
+}
+
+/*#IMG_3*/
+
+
+#IMG_3 {
+	cursor: pointer;
+	display: block;
+	max-width: 100%;
+	left: 40px;
+	height: auto;
+	width: auto;
+	margin: 600px 38vw;
+	position: absolute;
+	top: 70px;
+	transition: opacity 0.2s ease 0s;
+}
+
+/*#IMG_4*/
+
+#IMG_4 {
+	cursor: pointer;
+	display: block;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	margin: 600px 56vw;
+	left: 60px;
+	position: absolute;
+	top: 70px;
+	transition: opacity 0.2s ease 0s;
+}
+
+/*#IMG_5*/
+
+#IMG_5 {
+	cursor: pointer;
+	display: block;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	margin: 600px 74vw;
+	left: 80px;
+	position: absolute;
+	top: 70px;
+	transition: opacity 0.2s ease 0s;
+}
+
+#loader-wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+}
+
+#loader {
+	display: block;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	width: 150px;
+	height: 150px;
+	margin: -75px 0 0 -75px;
+	border-radius: 50%;
+	border: 3px solid transparent;
+	border-top-color: #0099ff;
+	z-index: 1001;
+	-webkit-animation: spin 2s linear infinite;
+	          animation: spin 2s linear infinite;
+}
+
+#loader:before {
+	content: "";
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	right: 5px;
+	bottom: 5px;
+	border-radius: 50%;
+	border: 3px solid transparent;
+	border-top-color: #ff1900;
+	-webkit-animation: spin 3s linear infinite;
+	        animation: spin 3s linear infinite;
+}
+
+#loader:after {
+	content: "";
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	left: 15px;
+	bottom: 15px;
+	border-radius: 50%;
+	border: 3px solid transparent;
+	border-top-color: #ffc800;
+	-webkit-animation: spin 1.5s linear infinite;
+	        animation: spin 1.5s linear infinite;
+}
+
+#loader-wrapper .loader-section {
+	position: fixed;
+	top: 0;
+	width: 51%;
+	height: 100%;
+	background: #222;
+	z-index: 1000;
+	-webkit-transform: translateX(0);
+	        transform: translateX(0);
+}
+
+#loader-wrapper .loader-section.section-left {
+	left: 0;
+}
+
+#loader-wrapper .loader-section.section-right {
+	right: 0;
+}
+
+@-webkit-keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+	}
+
+	100% {
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+	}
+}
+
+@keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+	}
+
+	100% {
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+	}
+}
+
+.loaded #loader-wrapper .loader-section.section-left {
+	-webkit-transform: translateX(-100%);
+	        transform: translateX(-100%);
+	        transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.loaded #loader-wrapper .loader-section.section-right {
+	-webkit-transform: translateX(100%);
+	        transform: translateX(100%);
+	        transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.loaded #loader {
+	opacity: 0;
+	transition: all 0.3s ease-out;
+}
+
+.loaded #loader-wrapper {
+	visibility: hidden;
+	-webkit-transform: translateY(-100%);
+	        transform: translateY(-100%);
+	        transition: all 0.3s 1s ease-out;
+}
+
+@keyframes shake {
+	0% {
+		transform: translate(1px, 1px) rotate(0deg);
+	}
+
+	10% {
+		transform: translate(-1px, -2px) rotate(-1deg);
+	}
+
+	20% {
+		transform: translate(-3px, 0px) rotate(1deg);
+	}
+
+	30% {
+		transform: translate(3px, 2px) rotate(0deg);
+	}
+
+	40% {
+		transform: translate(1px, -1px) rotate(1deg);
+	}
+
+	50% {
+		transform: translate(-1px, 2px) rotate(-1deg);
+	}
+
+	60% {
+		transform: translate(-3px, 1px) rotate(0deg);
+	}
+
+	70% {
+		transform: translate(3px, 1px) rotate(-1deg);
+	}
+
+	80% {
+		transform: translate(-1px, -1px) rotate(1deg);
+	}
+
+	90% {
+		transform: translate(1px, 2px) rotate(0deg);
+	}
+
+	100% {
+		transform: translate(1px, -2px) rotate(-1deg);
+	}
+}
+
+	
