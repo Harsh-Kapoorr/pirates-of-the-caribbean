@@ -1,2 +1,4 @@
-# pirates-of-the-caribbean
-A simple frontend design template 
+# PIRATES OF THE CARIBBEAN
+
+A simple frontend design template designed by - Harsh Kapoor
+
